@@ -1,0 +1,13 @@
+appId: com.example.todo
+productName: Todo App
+directories:
+  output: dist
+files:
+  - "**/*"
+extraResources:
+  - assets/**
+mac:
+  target: dmg
+win:
+  target: nsis
+  icon: assets/icon.ico
